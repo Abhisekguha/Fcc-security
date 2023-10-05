@@ -1,0 +1,13 @@
+[1mdiff --git a/myApp.js b/myApp.js[m
+[1mindex a8093dd..0bb5e1c 100644[m
+[1m--- a/myApp.js[m
+[1m+++ b/myApp.js[m
+[36m@@ -34,7 +34,7 @@[m [mapp.listen(port, () => {[m
+   console.log(`🦴Using Pogrammer Info Security App Started on Port ${port}`);[m
+ });[m
+ [m
+[31m-[m
+[32m+[m[32mapp.use(helmet.hidePoweredBy());[m
+ [m
+ [m
+ [m
